@@ -72,21 +72,22 @@ export type Personal = {
     name: string
     title: string
     yoe: string
-    avatar: string
+    avatar: any
     siteUrl: string
 }
 
 // ─────────────────────────────────────────
 //  PERSONAL INFO
 // ─────────────────────────────────────────
+import avatarImg from './assets/img/avatar.jpg'
+
 export const personal: Personal = {
     name: 'Le Hoang Hai',
     title: 'Full Stack Developer',
     yoe: '1.5 YoE',
-    avatar: '/avatar.jpg',
+    avatar: avatarImg,
     siteUrl: 'https://google.com/',
 }
-
 // ─────────────────────────────────────────
 //  CONTACT
 // ─────────────────────────────────────────
@@ -314,7 +315,7 @@ export const projects: Project[] = [
         name: 'DevOps Infrastructure – Raspberry Pi',
         links: ['jenkin.cyberpond.online', 'n8n.cyberpond.online'],
         period: '2026',
-        description: 'Self-hosted Linux server on Raspberry Pi with Nginx as reverse proxy, Docker for containerized application deployment, and SSL/domain setup for secure public access',
+        description: 'Self-hosted Linux server on Raspberry Pi with Nginx as reverse proxy, Docker for containerized application deployment, and SSL/domain setup for secure assets access',
         position: 'Fullstack Developer',
         responsibilities: [
             'Designed and built the full application from scratch',

@@ -61,11 +61,12 @@ portfolio-vue/
 ### 1. Personal Info
 
 ```ts
+import avatarImg from './assets/img/avatar.jpg'
 export const personal = {
   name: 'Your Name',
   title: 'Your Job Title',
   yoe: '3+ YoE',
-  avatar: '/your-photo.jpg',   // place the file in public/
+    avatar: avatarImg,   // place the file in assets/
   siteUrl: 'https://yoursite.com',
 }
 ```
