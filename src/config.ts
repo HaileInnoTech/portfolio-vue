@@ -312,7 +312,7 @@ export const projects: Project[] = [
     {
         type: 'personal',
         name: 'DevOps Infrastructure – Raspberry Pi',
-        links: ['jenkin.cyberpond.online', 'n8n.cyberpond.online'],
+        links: ['https://jenkin.cyberpond.online/', 'https://n8n.cyberpond.online/'],
         period: '2026',
         description: 'Self-hosted Linux server on Raspberry Pi with Nginx as reverse proxy, Docker for containerized application deployment, and SSL/domain setup for secure assets access',
         position: 'Fullstack Developer',
