@@ -115,7 +115,6 @@ export const overview: string[] = [
     'Familiar with <strong>Design Patterns, Clean Code, and Domain-Driven Design (DDD)</strong>, enabling clean and modular software architecture.',
     'Experienced in <strong>Git-based Agile workflows, Docker, and CI/CD practices</strong>, ensuring smooth team collaboration and reliable deployments.',
     'Quick learner with strong communication skills, focused on contributing to scalable and maintainable Java-based systems.',
-    'Based in Da Nang, Vietnam, seeking a <strong>Backend Software Engineer</strong> role to grow within a collaborative engineering team.'
 ];
 
 // ─────────────────────────────────────────
