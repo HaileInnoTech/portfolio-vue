@@ -83,7 +83,7 @@ import avatarImg from './assets/img/avatar.jpg'
 
 export const personal: Personal = {
     name: 'Le Hoang Hai',
-    title: 'Full Stack Developer',
+    title: 'Software Developer',
     yoe: '1.5 YoE',
     avatar: avatarImg,
     siteUrl: 'https://google.com/',
@@ -109,14 +109,18 @@ export const contacts: ContactItem[] = [
 //  OVERVIEW
 // ─────────────────────────────────────────
 export const overview: string[] = [
-    'Software Engineer with <strong>1.5 years of professional experience</strong> in enterprise full-stack development, specializing in <strong>Java, Spring Boot, RESTful API design, Spring Security, and JWT/OAuth2 authentication</strong>.',
-    'Proficient in <strong>database integration</strong> using Spring Data JPA and SQL, ensuring scalable and maintainable backend solutions.',
-    'Frontend experience with <strong>Vue and TypeScript</strong> provides strong understanding of how backend decisions impact real products.',
-    'Familiar with <strong>Design Patterns, Clean Code, and Domain-Driven Design (DDD)</strong>, enabling clean and modular software architecture.',
-    'Experienced in <strong>Git-based Agile workflows, Docker, and CI/CD practices</strong>, ensuring smooth team collaboration and reliable deployments.',
-    'Quick learner with strong communication skills, focused on contributing to scalable and maintainable Java-based systems.',
-];
+    'Software Engineer with <strong>1.5 years of professional experience</strong> in enterprise full-stack development, specializing in <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>RESTful API</strong> design, <strong>Spring Security</strong>, and <strong>JWT/OAuth2 authentication</strong>.',
 
+    'Proficient in database integration using <strong>Spring Data JPA </strong> and <strong>SQL</strong>, ensuring scalable and maintainable backend solutions.',
+
+    'Frontend experience with <strong>Vue</strong> and <strong>TypeScript</strong> provides strong understanding of how backend decisions impact real products.',
+    'Familiar with <strong>Design Patterns</strong>, <strong> Clean Code</strong>, and <strong> Domain-Driven Design (DDD)</strong>, enabling clean and modular software architecture.',
+
+    'Has basic knowledge of <strong>Microservices architecture</strong>, <strong> Apache Kafka</strong>, and <strong>Redis</strong> for caching.',
+    'Experienced in <strong>Git-based Agile</strong> workflows, <strong>Docker</strong>, and <strong>CI/CD</strong> practices, ensuring smooth team collaboration and reliable deployments.',
+
+    'Quick learner with strong communication skills, focused on contributing to scalable and maintainable <strong> Java-based back-end systems</strong>.',
+];
 // ─────────────────────────────────────────
 //  WORK EXPERIENCE
 // ─────────────────────────────────────────
@@ -125,7 +129,7 @@ export const workExperiences: WorkExperience[] = [
         type: 'company',
         date: '10/2025 — 12/2025',
         company: 'Silicon Stack',
-        role: 'Software Engineer',
+        role: 'Software Developer',
         body: 'Delivered scalable full-stack CRM features with Vue.js and Spring Boot, applying SOLID principles and Clean Architecture while collaborating with cross-functional teams.',
         isCurrent: false,
     },
@@ -133,14 +137,14 @@ export const workExperiences: WorkExperience[] = [
         type: 'company',
         date: '09/2024 — 09/2025',
         company: 'IVC - ISB Viet Nam',
-        role: 'Software Engineer',
+        role: 'Software Developer',
         body: 'Developed a full-stack live camera inspection system with Vue.js and Spring Boot, featuring responsive UI, JWT/RBAC security, AI-assisted testing, and automated deployments.',
     },
     {
         type: 'company',
         date: '09/2023 — 12/2023',
         company: 'NaviWorld VietNam',
-        role: 'Technical Consultant Internship ',
+        role: 'Technical Consultant',
         body: 'Developed Spring Boot POCs for a leave management system and Power Agent integration, automating workflows and enabling multi-platform queries, while collaborating in an Agile team.',
     },
 ]
@@ -151,7 +155,7 @@ export const workExperiences: WorkExperience[] = [
 export const education: Education[] = [
     {
         name: 'Swinburne University of Technology',
-        sub: 'Information Technology and Communication Bachelor ',
+        sub: 'Information Technology and Communication Bachelor.',
         date: '09/2021 — 11/2024',
     },
 ]
@@ -235,7 +239,7 @@ export const skills: SkillRow[] = [
         summary:
             '- <strong>Frontend:</strong> JavaScript, TypeScript, ReactJS, VueJS | State: Pinia, Zustand | Styling: Tailwind CSS, Ant Design, Vuetify.<br>' +
             '- <strong>Backend:</strong> Spring Boot, Restful APIS, Spring Security, JWT, OAuth2, Spring JPA/Hibernate, MySQL, PostgreSQL.<br>' +
-            '- <strong>Tools:</strong> Git, Docker, Jenkins',
+            '- <strong>Tools:</strong> Git, Docker, Jenkins.',
     },
 ]
 
@@ -248,9 +252,9 @@ export const projects: Project[] = [
         name: 'Volkswagen CRM',
         period: '10/2025 — 12/2025 ',
         client: 'Volkswagen',
-        description: 'Enterprise CRM platform for multiple automotive clients, built on a microfrontend architecture using Vue.js and Spring Boot.',
-        members: 10,
-        position: 'Full Stack Developer',
+        description: 'Enterprise CRM platform for multiple automotive clients, built on a micro-frontend architecture using Vue.js and Spring Boot.',
+        members: 23,
+        position: 'Software Developer',
         responsibilities: [
             'Implemented full-stack features using Vue.js and Ant Design for frontend and Spring Boot for backend APIs, delivering Volkswagen-specific modules in collaboration with cross-functional teams.',
             'Collaborated with Business Analysts, Backend Engineers, and Project Manager using JIRA to clarify requirements, track tasks, and ensure timely sprint delivery of full-stack client-facing features.',
@@ -271,9 +275,9 @@ export const projects: Project[] = [
         name: 'TakeX',
         period: '09/2024 — 09/2025',
         client: 'ISB Viet Nam',
-        description: 'KOL content creator platform by Vingroup. Creators share content on YouTube, TikTok, Facebook and earn rewards by views. Partners: MB Bank, VPBank, VNPAY, Yody.',
+        description: 'Developed a real-time video streaming system using WebRTC for low-latency communication, with a Vue.js frontend to manage and display camera streams. Implemented signaling using MQTT-based pub/sub messaging to handle peer connection setup and message exchange.',
         members: 15,
-        position: 'Frontend Developer',
+        position: 'Software Developer',
         responsibilities: [
             'Implemented 100+ responsive views from Figma designs using Vue.js and Vuetify.',
             'Designed and implemented full-stack JWT-based authentication and RBAC across 6 user roles.',
